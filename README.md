@@ -1,17 +1,8 @@
 # sentinel1decoder
-Python decoder for Sentinel-1 level0 files. The level0 format consists of the raw space packets downlinked from the Sentinel-1 spacecraft. This package decodes these and produces the raw I/Q sensor output from the SAR instrument, which can then be further processed to focus a SAR image. An example Jupyter notebook which runs through the process of decoding Level 0 data and forming an image is available on github [here](https://github.com/Rich-Hall/sentinel1Level0DecodingDemo) or nbviewer.org [here](https://nbviewer.org/github/Rich-Hall/sentinel1Level0DecodingDemo/blob/main/sentinel1Level0DecodingDemo.ipynb).
+これはSentinel-1 Level0 ファイルのデコーダーを改造した研究用のレポジトリです。
+フォーク元リポジトリはこちら：https://github.com/Rich-Hall/sentinel1decoder
 
-This code is heavily based on an implementation in C by jmfriedt which can be found [here](https://github.com/jmfriedt/sentinel1_level0).
-
-## Installation
-
-In a terminal window:
-```
-pip install git+https://github.com/Rich-Hall/sentinel1decoder
-```
-[Numpy](https://numpy.org/) and [Pandas](https://pandas.pydata.org/) are also required.
-
-## Usage
+## 使い方
 
 Import the package:
 ```
